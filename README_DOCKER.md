@@ -24,4 +24,7 @@ docker run -v .:/work -e RPC_URL="https://api.mainnet-beta.solana.com" -e KEYPAI
 ## Notes
 * Use a good RPC (or custom infrastructure)
 * Priority fees are needed but the amount is arbitrary as Solana Scheduler is broken
+
+## Improvements
 * Cba to deal with the build gremlins with alpine but if anyone wants to chew that glass please pr <3
+* Can probably run many miners within a single container for optimal resource use - needs benchmarking
